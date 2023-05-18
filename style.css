@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --cor1: #5990D9;
+    --cor2: #82A8D9;
+    --cor3: #2D5273;
+    --cor4: #192E40;
+}
+
+body {
+    background-color: var(--cor2);
+}
+
+.logo {
+    margin: 50px 0px 0px 50px;
+    float: left;
+}
+
+.campo-caixa {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+   align-items: center;
+}
+
+.texto-caixa {
+    font-family: 'Inter',;
+    font-style: normal;
+    font-weight: 400;
+    background-color: var(--cor2);
+    border: none;
+    resize: none;
+    font-size: 32px;
+    line-height: 80%;
+    color: black;
+}
+
+.texto-caixa:focus, label:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    resize: none;
+    overflow-y: hidden;
+}
+
+.texto-caixa::placeholder {
+    color: var(--cor3);
+}
+
+.cripto-descripto {
+    margin: 40px 40px 5px 200px;
+    width: 400px;
+    height: 904px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.imagem-lupa {
+    margin: 200px 0px 0px 30px;
+}
+
+.exibicao-de-texto {
+    width: 336px;
+    height: 58px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 28px 0px 0px 30px;
+}
+
+
+.acao-texto {
+    width: 316px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 14px 0px 0px 40px;
+}
+
+#mensagem {
+    margin: 30px;
+    border: none;
+    resize: none;
+}
+
+#mensagem:focus, label:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    resize: none;
+    overflow-y: hidden;
+}
+
+.btn-copiar {
+    height: 67px;
+    width: 228px;
+    font-size: 16px;
+    border: 1px solid var(--cor1);
+    border-radius: 24px;
+    background: white;
+    border: 1px solid var(--cor1);
+    color: black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 45px;
+}
+
+.btn-copiar:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: var(--cor1);
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botoes-grupo {
+    margin: 20px;
+}
+
+#aviso {
+    margin: 48px 0px 15px 48px;
+    width: 228px;
+    height: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.9;
+}
+
+.botao1 {
+    width: 328px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;  
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background: var(--cor3);
+    color: #FFFFFF;
+    border: 1px solid var(--cor3);
+    cursor: pointer;
+    border-radius: 24px;
+    margin: 0px 25px 72px 0px;
+}
+
+.botao1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: var(--cor4);
+}
+
+.botao2 {
+    width: 328px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: black;
+    background: white;
+    border: 1px solid var(--cor1);
+    cursor: pointer;
+    border-radius: 24px;
+}
+
+.botao2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: var(--cor1);
+}
+
+#ponto {
+    margin: 9px 0px 10px 0px;
+}
+
+#frase {
+    margin: -31px 0px 10px 25px;
+    font-family: "inter";
+    line-height: 18px;
+    size: 24px;
+    color: #495057;
+    opacity: 0.8;
+}
+
+.rodape {
+    text-align: center;
+    font-family: 'inter';
+    margin: 0px 0px 20px 0px;
+    font-weight: bold;
+}
+

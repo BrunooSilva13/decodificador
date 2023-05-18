@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+            <img class="logo" src="imagem/logo.png" alt="Logo da Alura">
+    </header>
+    <main>
+        <section class="campo-caixa">
+            <div class="campo-texto">
+            <textarea class="texto-caixa" placeholder="Digite seu texto" cols="36" role="9"></textarea>
+            </div>
+            
+            <div class="cripto-descripto">
+                <img src="imagem/lupa.svg" alt="" class="imagem-lupa">
+                <h2 class="exibicao-de-texto">Nenhuma mensagem encontrada</h2>
+                <textarea id="mensagem" placeholder="" cols="40" role="30" readonly></textarea>
+                <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+             </div>
+        </section>
+        <section class="botoes">
+            <div class="botoes-grupo">
+                <img src="imagem/ponto-exclamacao.png" alt="Ponto de exclamação" id="ponto">
+                <p class="frase" id="frase">Apenas letras minúsculas e sem Acento</p>
+                <button class="botao1" onclick ="btnEncriptar()">Criptografar</button>
+                <button class="botao2" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+
+        
+    </main>
+     
+    <footer>
+        <p class="rodape">Desenvolvido por <a href="https://github.com/brunooSilva13"><strong>Bruno Mendes da Silva</strong></a> para o curso <strong>One</strong></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
